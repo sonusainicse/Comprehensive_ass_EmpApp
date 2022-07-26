@@ -1,0 +1,13 @@
+spring:
+ datasource:
+  url: jdbc:sqlserver://myserveremp.database.windows.net:1433;database=EmpDB;user=sonusaini@myserveremp;password={Sksaini@0798};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+  username: sonusaini
+  password: Sksaini@0798
+ jpa:
+  show-sql: true
+  hibernate:
+   ddl-auto: update
+   dialect: org.hibernate.dialect.SQLServer2012Dialect
+   
+server:
+ port: 8080
