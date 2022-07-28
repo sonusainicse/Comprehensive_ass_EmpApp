@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springbootempapp
-          image: sonusainicse0798/emprepo:1.0
+          image: sonusainicse0798/emprepo:tag
           ports:
             - containerPort: 8080
         
