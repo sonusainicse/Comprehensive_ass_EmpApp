@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springbootempapp
-          image: "sonusainicse0798/myemloyee:tag"
+          image: sonusainicse0798/myemloyee:tag
           ports:
             - containerPort: 8080
         
